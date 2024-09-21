@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    -webkit-filter: drop-shadow(10px 10px 0 red);
+}
