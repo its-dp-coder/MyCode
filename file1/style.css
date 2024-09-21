@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 900;
+    text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border-bottom: 3px solid black;
+text-shadow: 2px 2px 1px blue;
+
+}
+h3{
+    margin-top: 30px;
+    margin-left: 5px;
+    text-shadow: 2px 2px 5px red;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 1.56;
+   text-align: left;
+    margin-left: 200px;
+    text-shadow: 1px 1px 6px pink; 
+   text-transform: capitalize;
+}

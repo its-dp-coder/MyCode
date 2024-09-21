@@ -1,0 +1,19 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+div{
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    border: 5px solid greenyellow;
+    background-color:plum;
+margin-left: 350px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
