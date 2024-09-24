@@ -1,0 +1,67 @@
+.container{
+    height: 400px;
+    width: 400px;
+    border: 4px solid gray;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.child{
+    height: 133px;
+    width: 133px;
+    border: 2px solid gray;
+    /* display: flex; */
+ 
+}
+.container1{
+    height: 400px;
+    width: 400px;
+    border: 4px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+ margin-top: 20px;
+}
+.child1{
+    height: 133px;
+    width: 133px;
+    border: 2px solid gray;
+    /* display: flex; */
+ 
+}
+.container2{
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+box-shadow: rgba(0, 0,0,0.16)0px 1px 4px,rgba(51,51,51)0px 0px 0px 3px;
+color: #fff;
+margin-top: 20px;
+display:flex;
+/* flex-direction:row-reverse; */
+
+/* flex-direction: column; */
+/* flex-direction: column-reverse; */
+/* justify-content: flex-end; */
+/* justify-content: space-around; */
+/* justify-content: space-evenly; */
+/* justify-content: space-between; */
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+.child2{
+    height: 100px;
+    width: 100px;
+    aspect-ratio: 1;
+    border: 1px solid black;
+    background: #D66D75;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
