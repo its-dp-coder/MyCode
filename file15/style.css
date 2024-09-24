@@ -1,0 +1,29 @@
+/* .content-1:first-child{
+    color: red;
+} */
+ .content-1 li:first-child{
+    color: red;
+ }
+ .content-1 li:last-child{
+    color: rgb(128, 255, 0);
+ }
+ .content-1{
+height: auto;
+width: auto;
+border: 2px solid black;
+background-color: cadetblue;
+margin: 0 auto;
+ }
+ li{
+    margin:20px;
+    font-size:50px;
+    font-weight: 300;
+list-style: none;
+text-align: center;
+ }
+ .content-1 li:nth-child(3){
+    color: rgb(47, 0, 255);
+ }
+ .content-1 li:nth-child(4){
+    color: rgb(225, 255, 0);
+ }
